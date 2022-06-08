@@ -242,6 +242,8 @@ Table of Contents:
    ![example](./figs/screenshot-1654620542689.svg)
 
    where the NAT1 IP address is 192.168.122.1 (only true for those who use the remote server).
+   It might be true for those who use GNS3 installed in your machine. 
+   Look for the virbr0 interface in your terminal, and see the IP address.
    For the router R1, you could use the Cisco router 3745 whose image I have already gave you before.
 2. From Task-A-2, please replace the switch at the top with a router and connect+add a NAT from the router. Then, configure the router properly such that all hosts can ping each other and all hosts can access the Internet. 
 3. (Challenge) From Task-B-1, please replace the router with a Linux machine and enable Internet connection from all hosts
