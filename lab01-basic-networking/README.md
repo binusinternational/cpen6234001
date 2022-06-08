@@ -74,7 +74,7 @@ Table of Contents:
 
   subnet     255   .  255   .  255   .   0        --> decimal notation
    mask    00000000.00000000.00000000.11111111    --> negated binary
-  notation
+                                                      notation
 
         -------------------------------------- XOR
 
