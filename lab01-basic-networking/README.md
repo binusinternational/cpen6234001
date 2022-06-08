@@ -138,8 +138,8 @@ Table of Contents:
 
    
 ### Questions
-1. From Task-A-1, can they ping each other? Why? Show me at least a proof to support your answer to the why question!
-2. From Task-A-2, can they ping each other? Why? Show me at least a proof to support your answer to the why question! Also, what is wrong with the topology?
+1. From Task-A-1, can they ping each other? Why can they ping each other? Show me at least a proof to support your answer to the why question!
+2. From Task-A-2, can they ping each other? Why can they ping each other? Show me at least a proof to support your answer to the why question! Also, what is wrong with the topology?
 3. Extend the topology from Task-A with an additional L2 switch such that you have three subnets such that the first subnet is approximately twice the size of the other two subnets.
 
 
