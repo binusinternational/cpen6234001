@@ -208,10 +208,11 @@ Table of Contents:
   
   ```
   R1#configure terminal
-  R1(config)#ip route <destination ip address> <subnet mask> <default gateway interface>
+  R1(config)#ip route <destination ip address> <subnet mask> <default gateway interface IP address>
   ```
 
   Note that in order to set a default routing, use 0.0.0.0 for both the destination ip address and subnet mask.
+  A gateway IP address is the IP address of the directly-connected interface where the traffic goes to.
 
 - Setting source NAT in a Cisco router
   ```
