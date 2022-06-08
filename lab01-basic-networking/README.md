@@ -234,7 +234,7 @@ Table of Contents:
   ```
   or,
   ```
-  ip route add <ip address>/<CIDR> dev <interface name>
+  ip route add default via <gateway IP address> dev <interface name>
   ```
 
 #### Tasks
