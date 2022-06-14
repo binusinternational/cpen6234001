@@ -17,7 +17,7 @@ Table of Contents:
   - [Docker](#docker)
     - [Important Commands](#important-commands-3)
     - [Questions](#questions-3)
-    - [Docker Compose](#docker-compose)
+  - [Docker Compose](#docker-compose)
     - [Important Commands](#important-commands-4)
     - [Questions](#questions-4)
   - [Bonus: Load Balancer](#bonus-load-balancer)
@@ -254,7 +254,7 @@ However, we can't access its shell.
 2. Can you ping the other container using its container name? Why?
 3. Try to create a file in the host computer and in all docker containers. Can they see each other file? What is the implication of it? What technology that enables it?
 
-### Docker Compose
+## Docker Compose
 
 ### Important Commands
 - To run multiple services:
