@@ -217,7 +217,7 @@ However, we can't access its shell.
     ```
 
 ### Questions
-1. Create a topology where it consists of a virtual switch that connects two network namespaces located in the same subnet.
+1. Create a topology where it consists of a virtual switch that connects two network namespaces located in the same subnet. Note that for the virtual switch you need to assign the IP address of the `v-bridge` instead of the `veth`.
 2. Enable the Internet connection from the network namespaces above.
 
 ## Docker
