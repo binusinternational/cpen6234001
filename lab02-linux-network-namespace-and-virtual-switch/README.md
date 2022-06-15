@@ -121,10 +121,10 @@ Please run the following commands as a root.
     ```
 
 ### Questions
-1. Use the command `ip route show` to compare the routing table in a network namespace and that in a host machine
-2. Use the command `ip neigh` to compare the routing table in a network namespace and that in a host machine
-3. Use the command `iptables -L` to compare the firewall rule in a network namespace and that in a host machine
-4. Please create a dummy file in a host machine and see if you can see the same file inside a network namespace.
+1. Use the command `ip route show` to compare the routing table in a network namespace and that in a host machine. Try to make sense of it.
+2. Use the command `ip neigh` to compare the routing table in a network namespace and that in a host machine. Try to make sense of it.
+3. Use the command `iptables -L` to compare the firewall rule in a network namespace and that in a host machine. Try to make sense of it.
+4. Please create a dummy file in a host machine and see if you can see the same file inside a network namespace. Why?
 
 ## Virtual Ethernet
 ### Introduction
