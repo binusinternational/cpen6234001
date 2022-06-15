@@ -189,8 +189,17 @@ Therefore, you need to make sure that each interface is:
 
 ### Questions
 1. Try to enable a connection between two network namespaces.
-2. (Challenge) Try to create a chain of 3 network namespaces and enable connections between them.
+2. (Challenge) Try to create a chain of 3 network namespaces and enable connections between them (please see figure below as a reference).
 
+```
++------------+                    +-------------+                   +-------------+
+|            |                    |             |                   |             |
+|          +-+-+                +-+-+         +-+-+               +-+-+           |
+|    red   | | +----------------+ | |  green  | | +---------------+ | |  blue     |
+|          +-+-+                +-+-+         +-+-+               +-+-+           |
+|            |                    |             |                   |             |
++------------+                    +-------------+                   +-------------+
+```
 
 ## Virtual Switch
 
